@@ -1,0 +1,36 @@
+
+
+#root{
+  background-image: url('https://cdn.wallpapersafari.com/46/92/mIGzs4.jpg') !important ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+
+.banner-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.banner-list {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.banner {
+  flex: 0 0 100%;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.grid  {
+  justify-content: center;
+    display: flex;
+}
+ 
